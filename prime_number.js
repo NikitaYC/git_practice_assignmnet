@@ -4,4 +4,10 @@ let isPrime = true;
       isPrime = false;
     }
   }
-  
+  if (num <= 1) {
+    console.log("No");
+  } else if (isPrime) {
+    console.log("Yes");
+  } else {
+    console.log("No");
+  }
